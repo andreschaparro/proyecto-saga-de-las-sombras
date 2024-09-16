@@ -1,0 +1,32 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid cadetblue;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: lightblue;
+}
+
+th {
+    border: 1px solid cadetblue;
+    padding: 10px;
+    background-color: darkcyan;
+    text-align: left;
+}
+
+td {
+    border: 1px solid darkcyan;
+}
+
+h2 {
+    margin: 15px;
+    padding: 0px;
+}
+
+tr:hover {
+    background-color: lightcyan;
+}

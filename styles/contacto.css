@@ -1,0 +1,42 @@
+.contenedor {
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    /* La siguiente línea es para que se tome en cuenta tanto el tamaño como los padding y margin para el calculo del 100% */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    color: white;
+    background-color: darkslategray;
+    padding: 15px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: slategray;
+}
+
+
+input:focus {
+    background-color: lightcyan;
+}

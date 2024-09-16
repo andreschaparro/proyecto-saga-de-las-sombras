@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saga de las Sombras</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/contacto.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Saga de las Sombras</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./libros.html">Libros</a></li>
+                <li><a href="./audiovisuales.html">Audiovisuales</a></li>
+                <li><a class="active" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required
+                    minlength="3">
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" name="apellido" placeholder="Escribí aquí tu apellido" required
+                    minlength="3">
+                <label for="mail">Email: </label>
+                <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+                <label for="libro">Libro: </label>
+                <select id="libro" name="libro">
+                    <option value="libro1">El Crepúsculo de la Torre</option>
+                    <option value="libro2">El Círculo de los Hechiceros</option>
+                    <option value="libro3">El Trono de las Tinieblas</option>
+                    <option value="libro4">El Renacer del Caos</option>
+                    <option value="libro5">El Ascenso del Fénix</option>
+                </select>
+                <label for="comentario">Comentario: </label>
+                <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+                <label for="motivo">Motivo del contacto: </label>
+                <input type="radio" id="motivo1" name="motivo1"><i>Soy un fan</i>
+                <input type="radio" id="motivo2" name="motivo2"><i>Quiero una copia de un libro</i>
+                <input type="radio" id="motivo3" name="motivo3"><i>Comerciales</i>
+                <input type="radio" id="motivo4" name="motivo4"><i>Reclamos</i>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+</body>
+
+</html>
