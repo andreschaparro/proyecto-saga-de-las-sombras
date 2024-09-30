@@ -1,6 +1,5 @@
 .contenedor {
-    display: flex;
-    justify-content: center;
+    margin: 20px 5% 0 5%;
 }
 
 table {
@@ -23,8 +22,8 @@ td {
 }
 
 h2 {
-    margin: 15px;
-    padding: 0px;
+    margin: 0;
+    padding: 15px;
 }
 
 tr:hover {
